@@ -51,13 +51,19 @@ header {
 
 aside {
     width: 200px;
-    background-color: blueviolet;
+    background-color: black;
     flex-shrink: 0;
     padding: 20px;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 main {
-    background-color: bisque;
+    background-color: #f8f9fa;
     flex-grow: 1;
     overflow-y: auto;
+}
+
+.banner-top {
+    background-color: #1c72e8;
+    color: white;
 }
