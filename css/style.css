@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: aqua;
+    margin: auto;
+}
+.ms-page-container {
+    display: flex;
+    height: calc(100vh - 70px);
+    background-color: blue;
+}
+
+aside {
+    background-color: blueviolet;
+    width: auto;
+}
+
+.ms-right {
+    overflow-y: auto;
+}
