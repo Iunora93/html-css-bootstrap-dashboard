@@ -9,22 +9,51 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 
-header {
-    height: 70px;
-    background-color: aqua;
-    margin: auto;
+img {
+    width: 100%;
 }
-.ms-page-container {
+
+.ms-img-logo {
+    width: 45px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.form-control, .input-group-text {
+    background-color: #e5e5e5;
+}
+
+.fa-bell {
+    color: orange;
+    margin-top: 4px;
+}
+
+header i {
+    margin-right: 20px;
+}
+
+header {
+    background-color: #fff;
+    height: 70px;
     display: flex;
+    align-items: center;
+}
+
+.page-container {
     height: calc(100vh - 70px);
-    background-color: blue;
+    background-color: lightgrey;
+    display: flex;
 }
 
 aside {
+    width: 200px;
     background-color: blueviolet;
-    width: auto;
+    flex-shrink: 0;
+    padding: 20px;
 }
 
-.ms-right {
+main {
+    background-color: bisque;
+    flex-grow: 1;
     overflow-y: auto;
 }
