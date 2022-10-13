@@ -28,8 +28,12 @@ img {
     margin-top: 4px;
 }
 
-header i {
+.ms-icons {
+    margin-top: 7px;  
+}
+.ms-icons-header  {
     margin-right: 20px;
+    margin-top: 4px;
 }
 
 header {
