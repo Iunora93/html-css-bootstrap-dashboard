@@ -1,39 +1,19 @@
+/* -----------
+    RESET
+    ---------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* ----------
+    CORE
+    --------- */
 body {
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
-}
-
-img {
-    width: 100%;
-}
-
-.ms-img-logo {
-    width: 45px;
-    background-color: transparent;
-    text-align: center;
-}
-
-.form-control, .input-group-text {
-    background-color: #e5e5e5;
-}
-
-.fa-bell {
-    color: orange;
-    margin-top: 4px;
-}
-
-.ms-icons {
-    margin-top: 7px;  
-}
-.ms-icons-header  {
-    margin-right: 20px;
-    margin-top: 4px;
 }
 
 header {
@@ -41,12 +21,6 @@ header {
     height: 70px;
     display: flex;
     align-items: center;
-}
-
-.page-container {
-    height: calc(100vh - 70px);
-    background-color: lightgrey;
-    display: flex;
 }
 
 aside {
@@ -63,7 +37,93 @@ main {
     overflow-y: auto;
 }
 
-.banner-top {
-    background-color: #1c72e8;
-    color: white;
+/* ----------
+    CONTAINERS
+    --------- */
+.page-container {
+    height: calc(100vh - 70px);
+    background-color: lightgrey;
+    display: flex;
 }
+
+/* ---------
+    IMMAGINI
+    -------- */
+
+img {
+    width: 100%;
+}
+
+.ms-img-logo {
+    width: 45px;
+    background-color: transparent;
+    text-align: center;
+}
+
+/* ---------
+    ICONS
+    -------- */
+
+    .fa-bell {
+        color: orange;
+        margin-top: 4px;
+    }
+    
+    .ms-icons {
+        margin-top: 7px;  
+    }
+    .ms-icons-header  {
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    .fa-chevrons-right {
+        color: white;
+    }
+
+    /* ----------
+    RESET BOOTSTRAP
+    ------------- */
+    .form-control, .input-group-text {
+        background-color: #e5e5e5;
+    }
+
+    .accordion-button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .badge-banner-boolean {
+        margin-top: 22px;
+    }
+
+    .ms-card-title {
+        background-color: #f7f7f7;
+        padding: 15px 5px;
+        border-radius: 8px;
+    }
+
+    .badge-banner {
+        border: 2px solid #1c72e8;
+        background-color: #185bb9;
+        border-radius: 20px;
+    }
+    /* ---------
+        MAIN
+        -------- */
+        .banner-top {
+            background-color: #1c72e8;
+            color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
