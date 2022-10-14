@@ -29,7 +29,7 @@ header {
 }
 
 aside {
-    width: 200px;
+    width: auto;
     background-color: #12263e;
     flex-shrink: 0;
     padding: 20px;
@@ -146,6 +146,30 @@ img {
             background-color: #1c72e8;
             color: white;
         }
+
+        /* --------
+            ASIDE
+            ------- */
+        aside {
+            color: white;
+            position: relative;
+        }
+
+        .ms-bottom-aside {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .list-group-item {
+            background-color: transparent;
+            cursor: pointer;
+        }
+
 
 
 
