@@ -56,7 +56,7 @@
                                   <li><a class="dropdown-item" href="#">Another action</a></li>
                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
-                              </div>
+                            </div>
                             
                         </div>
                     </div>
@@ -68,15 +68,15 @@
             <aside>
                 <div class="container" style="margin-top: 30px;">
                     <!-- top-aside -->
-                    <div class="row ms-top-aside">            
+                    <div class="row ms-top-aside ms-white">            
                         <div class="col-1"><i class="fa-solid fa-house-user"></i></div>
                         <div class="col d-none d-lg-block text-left">Home</div>                        
                     </div>
-                    <div class="row ms-top-aside">
+                    <div class="row ms-top-aside ms-white">
                         <div class="col-1"><i class="fa-solid fa-signal"></i></div>
                         <div class="col d-none d-lg-block text-left">Stats</div>
                     </div>
-                    <div class="row ms-top-aside">
+                    <div class="row ms-top-aside ms-white">
                         <div class="col-1"><i class="fa-solid fa-signal"></i></div>
                         <div class="col d-none d-lg-block text-left">Signals</div>
                     </div>
@@ -84,7 +84,7 @@
 
                     <!-- bottom-aside -->
                     <div class="container">
-                    <div class="row ms-bottom-aside">
+                    <div class="row ms-bottom-aside ms-white">
                         <div class="col-1"><i class="fa-solid fa-gear"></i></div>
                         <div class="col d-none d-lg-block text-left">Admin</div>
                     </div>
@@ -121,166 +121,175 @@
 
                 <!-- COL-8|COL-4 -->
                 <div class="container-fluid py-5">
-                        <div class="row">
-                            <!-- COL PROSSIME CLASSI|FAQ -->
-                            <div class="col-lg-8 col-md-12">
-                                <div class="card">
-                                    <div class="card-body ms-card-title">
-                                    <h5 class="card-title ">Prossime classi</h5>
+                    <div class="row">
+                        <!-- COL PROSSIME CLASSI|FAQ -->
+                        <div class="col-lg-8 col-md-12">
+                            <div class="card">
+                                <div class="card-body ms-card-title">
+                                    <div class="row" style="justify-content: space-between;margin: 0 15px;">
+                                        <h5 class="card-title ">Prossime classi</h5>
+                                        <div class="dropdown">
+                                            <button class="btn ms-btn-table" type="button" data-bs-toggle="dropdown" aria-expanded="false">+
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
+                                </div>
                                     
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="col-6" scope="col">Nome</th>
+                                <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="col-6" scope="col">Nome</th>
                                             <th class="col-3 d-none d-lg-table-cell" scope="col-2">Data inizio</th>
                                             <th class="d-none d-md-table-cell" scope="col">ROI</th>
                                             <th scope="col">Stato</th>
                                             <th class="text-center" scope="col">Azioni</th>              
-                                        </tr>
-                                        </thead>
+                                    </tr>
+                                </thead>
 
-                                        <tbody>
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 75</span>
+                                <tbody>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 75</span>   
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
                                             
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
-                                            
-                                                <td class="col" style="display: flex;">
-                                                    <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                    <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            
-                                        </tr>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>        
+                                    </tr>
 
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 76</span>
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">16 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
-                                            <td class="col" style="display: flex;">
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 76</span>
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">16 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
 
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 77</span>
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">17 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-yellow">process</span></h6></td>
-                                            <td class="col" style="display: flex;">
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 77</span>
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">17 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-yellow">process</span></h6></td>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
 
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 75</span>
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
-                                            <td class="col" style="display: flex;">
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 75</span>
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
 
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 75</span>
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-red">falled</span></h6></td>
-                                            <td class="col" style="display: flex;">
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 75</span>
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-red">falled</span></h6></td>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
 
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 75</span>
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
-                                            <td class="col" style="display: flex;">
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 75</span>
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
 
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 75</span>
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-red">falled</span></h6></td>
-                                            <td class="col" style="display: flex;">
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 75</span>
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-red">falled</span></h6></td>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
 
-                                        <tr>
-                                            <th class="col-6" scope="row">
-                                                <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
-                                                <span>Classe 75</span>
-                                            </th>
-                                            <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
-                                            <td class="col d-none d-md-table-cell">20%</td>
-                                            <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
-                                            <td class="col" style="display: flex;">
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <th class="col-6" scope="row">
+                                            <img class="ms-img-table" src="../img/class-avatar.jpg" alt="class-avatar">
+                                            <span>Classe 75</span>
+                                        </th>
+                                        <td class="col-3 d-none d-lg-table-cell">15 Feb 2021</td>
+                                        <td class="col d-none d-md-table-cell">20%</td>
+                                        <td class="col"><h6><span class="badge badge-table-green">Done</span></h6></td>
+                                        <td class="col" style="display: flex;">
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-pencil"></i></button>
+                                            <button type="button" class="btn btn-light"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
                                         
-                                        </tbody>
-                                    </table>
-                                </div>
+                                </tbody>
+                                </table>
+                                
                             </div>
+                        </div>
                         
                             <!-- FAQ -->
                             <div class="col-lg-8 col-md-12">
                                 <!-- FAQ BOOTSTRAP -->
                                 <div class="card mt-3" style="width: 100%;">
-                                        <h5 class="card-title ms-card-title">F.A.Q</h5>
-                                        <div class="accordion" id="accordionPanelsStayOpenExample">
-                                            <div class="accordion-item">
-                                                <span class="accordion-header" id="panelsStayOpen-headingOne">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                                    Come aggiungere una nuova classe?
-                                                </button>
-                                                </span>
-                                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                                    <div class="accordion-body">
-                                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                                    </div>
+                                    <h5 class="card-title ms-card-title">F.A.Q</h5>
+                                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item">
+                                            <span class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                Come aggiungere una nuova classe?
+                                            </button>
+                                            </span>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
                                         <hr>
                                         <div class="accordion" id="accordionPanelsStayOpenExample">
                                             <div class="accordion-item">
@@ -292,7 +301,7 @@
                                                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                                                     <div class="accordion-body">
                                                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                                    </div>
+                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -356,7 +365,7 @@
                             </div>
                             <!-- /COL TODO|UTENTI ATTIVI -->                   
                         </div>
-                    
+                   
                 </div>
                 <!-- /COL-8|COL-4 -->
             </main>
