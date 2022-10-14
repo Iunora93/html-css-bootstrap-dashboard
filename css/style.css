@@ -21,11 +21,16 @@ header {
     height: 70px;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid lightgray;
 }
 
 aside {
     width: 200px;
-    background-color: black;
+    background-color: #12263e;
     flex-shrink: 0;
     padding: 20px;
     background-image: url(../img/sidebar-bg.png);
@@ -44,6 +49,7 @@ main {
     height: calc(100vh - 70px);
     background-color: lightgrey;
     display: flex;
+    margin-top: 70px;
 }
 
 /* ---------
@@ -58,6 +64,10 @@ img {
     width: 45px;
     background-color: transparent;
     text-align: center;
+}
+
+.ms-img-table {
+    width: 30px;
 }
 
 /* ---------
